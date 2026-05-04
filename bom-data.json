@@ -1,0 +1,646 @@
+{
+  "schema": "bom-comparison.v2",
+  "savedAt": "2026-05-04T00:00:00.000Z",
+  "current": [
+    {
+      "id": "cur-root",
+      "parent": "",
+      "partNo": "PRD-9000",
+      "name": "多軸制御装置",
+      "revision": "05",
+      "qty": 1,
+      "start": "2026-01-01",
+      "end": "2099-12-31",
+      "expanded": true,
+      "children": [
+        {
+          "id": "cur-a100",
+          "parent": "PRD-9000",
+          "partNo": "ASM-A100",
+          "name": "筐体アセンブリ",
+          "revision": "B",
+          "qty": 1,
+          "start": "2026-01-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "cur-a110",
+              "parent": "ASM-A100",
+              "partNo": "MOD-A110",
+              "name": "フロントパネル",
+              "revision": "A",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "cur-a111",
+                  "parent": "MOD-A110",
+                  "partNo": "CMP-A111",
+                  "name": "操作シート",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": [
+                    {
+                      "id": "cur-a112",
+                      "parent": "CMP-A111",
+                      "partNo": "MAT-A112",
+                      "name": "PETフィルム",
+                      "revision": "A",
+                      "qty": 1,
+                      "start": "2026-01-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    },
+                    {
+                      "id": "cur-a113",
+                      "parent": "CMP-A111",
+                      "partNo": "MAT-A113",
+                      "name": "粘着シート",
+                      "revision": "A",
+                      "qty": 1,
+                      "start": "2026-01-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "cur-a114",
+                  "parent": "MOD-A110",
+                  "partNo": "CMP-A114",
+                  "name": "表示窓",
+                  "revision": "A",
+                  "qty": 2,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cur-a120",
+              "parent": "ASM-A100",
+              "partNo": "MOD-A120",
+              "name": "背面カバー",
+              "revision": "A",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2026-09-30",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "cur-a121",
+                  "parent": "MOD-A120",
+                  "partNo": "CMP-A121",
+                  "name": "銘板ラベル",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-01-01",
+                  "end": "2026-09-30",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cur-b200",
+          "parent": "PRD-9000",
+          "partNo": "ASM-B200",
+          "name": "制御アセンブリ",
+          "revision": "C",
+          "qty": 1,
+          "start": "2026-01-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "cur-b210",
+              "parent": "ASM-B200",
+              "partNo": "MOD-B210",
+              "name": "CPUモジュール",
+              "revision": "C",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "cur-b211",
+                  "parent": "MOD-B210",
+                  "partNo": "CMP-B211",
+                  "name": "CPU基板",
+                  "revision": "C",
+                  "qty": 1,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": [
+                    {
+                      "id": "cur-b212",
+                      "parent": "CMP-B211",
+                      "partNo": "MAT-B212",
+                      "name": "MCUチップ",
+                      "revision": "A",
+                      "qty": 1,
+                      "start": "2026-01-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    },
+                    {
+                      "id": "cur-b213",
+                      "parent": "CMP-B211",
+                      "partNo": "MAT-B213",
+                      "name": "SRAM 旧型",
+                      "revision": "A",
+                      "qty": 2,
+                      "start": "2026-01-01",
+                      "end": "2026-06-30",
+                      "expanded": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cur-b220",
+              "parent": "ASM-B200",
+              "partNo": "MOD-B220",
+              "name": "I/Oモジュール",
+              "revision": "B",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "cur-b221",
+                  "parent": "MOD-B220",
+                  "partNo": "CMP-B221",
+                  "name": "端子台",
+                  "revision": "A",
+                  "qty": 4,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cur-b230",
+              "parent": "ASM-B200",
+              "partNo": "MOD-B230",
+              "name": "通信モジュール",
+              "revision": "A",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "cur-b231",
+                  "parent": "MOD-B230",
+                  "partNo": "CMP-B231",
+                  "name": "LANコネクタ",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cur-c300",
+          "parent": "PRD-9000",
+          "partNo": "ASM-C300",
+          "name": "電源アセンブリ",
+          "revision": "B",
+          "qty": 1,
+          "start": "2026-01-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "cur-c310",
+              "parent": "ASM-C300",
+              "partNo": "MOD-C310",
+              "name": "AC/DC電源",
+              "revision": "B",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "cur-c311",
+                  "parent": "MOD-C310",
+                  "partNo": "CMP-C311",
+                  "name": "ヒューズ 5A",
+                  "revision": "A",
+                  "qty": 2,
+                  "start": "2026-01-01",
+                  "end": "2026-08-31",
+                  "expanded": true,
+                  "children": []
+                },
+                {
+                  "id": "cur-c312",
+                  "parent": "MOD-C310",
+                  "partNo": "CMP-C312",
+                  "name": "電解コンデンサ",
+                  "revision": "A",
+                  "qty": 4,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cur-d400",
+          "parent": "PRD-9000",
+          "partNo": "ASM-D400",
+          "name": "冷却アセンブリ",
+          "revision": "A",
+          "qty": 1,
+          "start": "2026-01-01",
+          "end": "2026-10-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "cur-d410",
+              "parent": "ASM-D400",
+              "partNo": "MOD-D410",
+              "name": "旧型ファン",
+              "revision": "A",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2026-10-31",
+              "expanded": true,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "next": [
+    {
+      "id": "new-root",
+      "parent": "",
+      "partNo": "PRD-9000",
+      "name": "多軸制御装置",
+      "revision": "06",
+      "qty": 1,
+      "start": "2026-05-01",
+      "end": "2099-12-31",
+      "expanded": true,
+      "children": [
+        {
+          "id": "new-a100",
+          "parent": "PRD-9000",
+          "partNo": "ASM-A100",
+          "name": "筐体アセンブリ",
+          "revision": "C",
+          "qty": 1,
+          "start": "2026-05-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "new-a110",
+              "parent": "ASM-A100",
+              "partNo": "MOD-A110",
+              "name": "フロントパネル",
+              "revision": "B",
+              "qty": 1,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "new-a111",
+                  "parent": "MOD-A110",
+                  "partNo": "CMP-A111",
+                  "name": "操作シート",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-01-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": [
+                    {
+                      "id": "new-a112",
+                      "parent": "CMP-A111",
+                      "partNo": "MAT-A112",
+                      "name": "PETフィルム",
+                      "revision": "A",
+                      "qty": 1,
+                      "start": "2026-01-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    },
+                    {
+                      "id": "new-a115",
+                      "parent": "CMP-A111",
+                      "partNo": "MAT-A115",
+                      "name": "耐指紋コート",
+                      "revision": "A",
+                      "qty": 1,
+                      "start": "2026-05-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "new-a114",
+                  "parent": "MOD-A110",
+                  "partNo": "CMP-A114",
+                  "name": "表示窓",
+                  "revision": "A",
+                  "qty": 3,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "new-a130",
+              "parent": "ASM-A100",
+              "partNo": "MOD-A130",
+              "name": "防水ガスケット",
+              "revision": "A",
+              "qty": 1,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "new-a131",
+                  "parent": "MOD-A130",
+                  "partNo": "CMP-A131",
+                  "name": "シリコンパッキン",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "new-b200",
+          "parent": "PRD-9000",
+          "partNo": "ASM-B200",
+          "name": "制御アセンブリ",
+          "revision": "D",
+          "qty": 1,
+          "start": "2026-05-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "new-b210",
+              "parent": "ASM-B200",
+              "partNo": "MOD-B210",
+              "name": "CPUモジュール",
+              "revision": "D",
+              "qty": 1,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "new-b211",
+                  "parent": "MOD-B210",
+                  "partNo": "CMP-B211",
+                  "name": "CPU基板",
+                  "revision": "D",
+                  "qty": 1,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": [
+                    {
+                      "id": "new-b212",
+                      "parent": "CMP-B211",
+                      "partNo": "MAT-B212",
+                      "name": "MCUチップ",
+                      "revision": "B",
+                      "qty": 1,
+                      "start": "2026-05-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    },
+                    {
+                      "id": "new-b214",
+                      "parent": "CMP-B211",
+                      "partNo": "MAT-B214",
+                      "name": "DDRメモリ",
+                      "revision": "A",
+                      "qty": 1,
+                      "start": "2026-05-01",
+                      "end": "2099-12-31",
+                      "expanded": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-b220",
+              "parent": "ASM-B200",
+              "partNo": "MOD-B220",
+              "name": "I/Oモジュール",
+              "revision": "B",
+              "qty": 1,
+              "start": "2026-01-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "new-b221",
+                  "parent": "MOD-B220",
+                  "partNo": "CMP-B221",
+                  "name": "端子台",
+                  "revision": "A",
+                  "qty": 6,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                },
+                {
+                  "id": "new-b232",
+                  "parent": "MOD-B220",
+                  "partNo": "CMP-B232",
+                  "name": "絶縁カバー",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "new-b230",
+              "parent": "ASM-B200",
+              "partNo": "MOD-B230",
+              "name": "通信モジュール",
+              "revision": "B",
+              "qty": 1,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "new-b231",
+                  "parent": "MOD-B230",
+                  "partNo": "CMP-B231",
+                  "name": "LANコネクタ",
+                  "revision": "A",
+                  "qty": 2,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                },
+                {
+                  "id": "new-b233",
+                  "parent": "MOD-B230",
+                  "partNo": "CMP-B233",
+                  "name": "Wi-Fiモジュール",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "new-c300",
+          "parent": "PRD-9000",
+          "partNo": "ASM-C300",
+          "name": "電源アセンブリ",
+          "revision": "C",
+          "qty": 1,
+          "start": "2026-05-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "new-c310",
+              "parent": "ASM-C300",
+              "partNo": "MOD-C310",
+              "name": "AC/DC電源",
+              "revision": "C",
+              "qty": 1,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": [
+                {
+                  "id": "new-c312",
+                  "parent": "MOD-C310",
+                  "partNo": "CMP-C312",
+                  "name": "電解コンデンサ",
+                  "revision": "B",
+                  "qty": 4,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                },
+                {
+                  "id": "new-c313",
+                  "parent": "MOD-C310",
+                  "partNo": "CMP-C313",
+                  "name": "保護リレー",
+                  "revision": "A",
+                  "qty": 1,
+                  "start": "2026-05-01",
+                  "end": "2099-12-31",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "new-e500",
+          "parent": "PRD-9000",
+          "partNo": "ASM-E500",
+          "name": "安全センサアセンブリ",
+          "revision": "A",
+          "qty": 1,
+          "start": "2026-05-01",
+          "end": "2099-12-31",
+          "expanded": true,
+          "children": [
+            {
+              "id": "new-e510",
+              "parent": "ASM-E500",
+              "partNo": "MOD-E510",
+              "name": "温度センサ",
+              "revision": "A",
+              "qty": 2,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": []
+            },
+            {
+              "id": "new-e520",
+              "parent": "ASM-E500",
+              "partNo": "MOD-E520",
+              "name": "電流センサ",
+              "revision": "A",
+              "qty": 1,
+              "start": "2026-05-01",
+              "end": "2099-12-31",
+              "expanded": true,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
